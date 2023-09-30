@@ -88,6 +88,11 @@ const config = {
             position: "right",
           },
           {
+            href: "https://pub.dev/packages/stadata_flutter_sdk",
+            label: "Pub.dev",
+            position: "right",
+          },
+          {
             type: "localeDropdown",
           },
           {
@@ -122,6 +127,10 @@ const config = {
               {
                 label: "GitHub",
                 href: "https://github.com/ryanaidilp/stadata_flutter_sdk",
+              },
+              {
+                href: "https://pub.dev/packages/stadata_flutter_sdk",
+                label: "Pub.dev",
               },
             ],
           },
