@@ -13,6 +13,8 @@ This method is used to retrieve a list of publications based on the selected dom
 | `month`   | `int?`         | The month for filtering publications (optional - `1..12`).      |
 | `year`    | `int?`         | The year for filtering publications (optional).                 |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

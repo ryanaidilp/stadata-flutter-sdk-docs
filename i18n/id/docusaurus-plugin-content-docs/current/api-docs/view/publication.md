@@ -10,6 +10,8 @@ Metode ini digunakan untuk mengambil informasi terperinci tentang suatu publikas
 | `domain`  | `String`       | Kode domain (wilayah) untuk mengambil detail publikasi. |
 | `lang`    | `DataLanguage` | Bahasa data publikasi (default: `DataLanguage.id`).     |
 
+## Contoh
+
 Contoh penggunaan dan keluaran contoh:
 
 ```dart

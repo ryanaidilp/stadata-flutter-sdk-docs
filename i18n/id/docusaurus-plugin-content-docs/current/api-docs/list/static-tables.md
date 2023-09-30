@@ -13,6 +13,8 @@ Metode ini digunakan untuk mengambil daftar tabel statis berdasarkan domain (wil
 | `bulan`   | `int?`         | Bulan untuk penyaringan tabel statis (opsional - `1..12`).   |
 | `tahun`   | `int?`         | Tahun untuk penyaringan tabel statis (opsional).             |
 
+## Contoh
+
 Contoh penggunaan dan keluaran contoh:
 
 ```dart

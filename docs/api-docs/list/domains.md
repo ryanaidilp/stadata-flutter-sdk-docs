@@ -9,6 +9,8 @@ This method is used to retrieve a list of domains (regions) available in the BPS
 | `type`         | `DomainType` | The type of domain to retrieve (default: `DomainType.all`).                                    |
 | `provinceCode` | `String?`    | The province code for filtering domains (required if `type` = `DomainType.regencyByProvince`). |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

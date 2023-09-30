@@ -4,7 +4,7 @@
 
 Dalam SDK `StadataFlutter`, Anda akan menemukan beberapa enums yang dirancang untuk menyederhanakan permintaan API dan memfasilitasi penanganan respon API.
 
-**1. Enum DataLanguage:**
+## Enum `DataLanguage`
 
 - Enum `DataLanguage` digunakan untuk menentukan parameter bahasa (`lang`) saat membuat permintaan API. Ini menawarkan dua opsi:
 
@@ -13,7 +13,7 @@ Dalam SDK `StadataFlutter`, Anda akan menemukan beberapa enums yang dirancang un
   | `DataLanguage.id` | `ind`       | Mewakili bahasa Indonesia. | **Default** |
   | `DataLanguage.en` | `eng`       | Mewakili bahasa Inggris.   |             |
 
-**2. Enum DomainType:**
+## Enum `DomainType`
 
 - Enum `DomainType` menyederhanakan parameter jenis domain (`type`) untuk model `Domain` dalam permintaan API. Ini mencakup opsi berikut:
 
@@ -24,7 +24,7 @@ Dalam SDK `StadataFlutter`, Anda akan menemukan beberapa enums yang dirancang un
   | `DomainType.regency`           | `kab`        | Mengambil semua domain kabupaten.                            |             |
   | `DomainType.regencyByProvince` | `kabbyprov`  | Mengambil semua domain kabupaten dalam ID provinsi tertentu. |             |
 
-**3. Enum DataAvailability:**
+## Enum `DataAvailability`
 
 - Enum `DataAvailability` membantu Anda memeriksa kunci `data-availability` dalam respon API, memudahkan penentuan ketersediaan data. Ini mencakup opsi berikut:
 

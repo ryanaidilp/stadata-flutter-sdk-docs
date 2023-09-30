@@ -10,6 +10,8 @@ Metode ini digunakan untuk mengambil informasi detail tentang siaran pers terten
 | `domain`  | `String`       | Kode domain (wilayah) untuk mengambil detail siaran pers.   |
 | `lang`    | `DataLanguage` | Bahasa untuk data siaran pers (default: `DataLanguage.id`). |
 
+## Contoh
+
 Contoh penggunaan dan hasil contoh:
 
 ```dart

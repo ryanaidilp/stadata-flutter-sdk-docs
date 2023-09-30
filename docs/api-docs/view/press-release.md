@@ -10,6 +10,8 @@ This method is used to retrieve detailed information about a specific press rele
 | `domain`  | `String`       | The domain (region) code for retrieving press release detail.     |
 | `lang`    | `DataLanguage` | The language for press release data (default: `DataLanguage.id`). |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

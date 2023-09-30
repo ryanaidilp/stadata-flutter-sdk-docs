@@ -14,6 +14,8 @@ Metode ini digunakan untuk mendapatkan daftar siaran pers berdasarkan domain (wi
 | `month`   | `int?`         | Bulan untuk memfilter siaran pers (opsional - `1..12`).     |
 | `year`    | `int?`         | Tahun untuk memfilter siaran pers (opsional).               |
 
+## Contoh
+
 Contoh penggunaan dan hasil keluaran:
 
 ```dart

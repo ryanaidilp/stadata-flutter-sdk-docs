@@ -11,6 +11,8 @@ Metode ini digunakan untuk mendapatkan daftar subjek berdasarkan domain yang dip
 | `page`              | `int`          | Nomor halaman (default: `1`).                          |
 | `subjectCategoryId` | `int?`         | ID kategori subjek untuk menyaring subjek (opsional).  |
 
+## Contoh
+
 Contoh penggunaan dan hasil keluaran:
 
 ```dart

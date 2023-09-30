@@ -11,6 +11,8 @@ This method is used to retrieve a list of subject based on the selected domain (
 | `page`              | `int`          | The page number (default: `1`).                              |
 | `subjectCategoryId` | `int?`         | ID of the subject category for filtering subject (optional). |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

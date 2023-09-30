@@ -10,6 +10,8 @@ Metode ini digunakan untuk mengambil informasi rinci tentang tabel statis terten
 | `domain`  | `String`       | Kode domain (wilayah) untuk mendapatkan detail tabel statis. |
 | `lang`    | `DataLanguage` | Bahasa untuk data tabel statis (default: `DataLanguage.id`). |
 
+## Contoh
+
 Contoh penggunaan dan hasil keluaran contoh:
 
 ```dart

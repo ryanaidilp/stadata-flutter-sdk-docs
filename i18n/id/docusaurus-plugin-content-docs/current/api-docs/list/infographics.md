@@ -11,6 +11,8 @@ Metode ini digunakan untuk mendapatkan daftar infografis berdasarkan domain (wil
 | `page`    | `int`          | Nomor halaman (default: `1`).                              |
 | `keyword` | `String?`      | Kata kunci untuk mencari infografis (opsional).            |
 
+## Contoh
+
 Contoh penggunaan dan output contoh:
 
 ```dart

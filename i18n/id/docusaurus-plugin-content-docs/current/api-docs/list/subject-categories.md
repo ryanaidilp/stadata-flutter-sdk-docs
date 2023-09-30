@@ -9,6 +9,8 @@ Metode ini digunakan untuk mengambil daftar kategori subjek berdasarkan domain y
 | `domain`  | `String`       | Kode domain (wilayah) untuk mengambil kategori subjek.          |
 | `lang`    | `DataLanguage` | Bahasa untuk data kategori berita (default: `DataLanguage.id`). |
 
+## Contoh
+
 Contoh penggunaan dan hasil keluaran contoh:
 
 ```dart

@@ -14,6 +14,8 @@ Metode ini digunakan untuk mengambil daftar berita berdasarkan domain (wilayah) 
 | `month`          | `int?`         | Bulan untuk menyaring berita (opsional - `1..12`).     |
 | `year`           | `int?`         | Tahun untuk menyaring berita (opsional).               |
 
+## Contoh
+
 Contoh penggunaan dan contoh keluaran:
 
 ```dart

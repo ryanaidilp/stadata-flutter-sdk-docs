@@ -10,6 +10,8 @@ This method is used to retrieve detailed information about a specific news.
 | `domain`  | `String`       | The domain (region) code for retrieving news detail.     |
 | `lang`    | `DataLanguage` | The language for news data (default: `DataLanguage.id`). |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

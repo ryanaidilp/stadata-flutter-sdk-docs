@@ -9,6 +9,8 @@ This method is used to retrieve a list of subject categories based on the select
 | `domain`  | `String`       | The domain (region) code for retrieving subject categories.         |
 | `lang`    | `DataLanguage` | The language for news categories data (default: `DataLanguage.id`). |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

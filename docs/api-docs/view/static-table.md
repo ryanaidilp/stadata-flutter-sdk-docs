@@ -10,6 +10,8 @@ This method is used to retrieve detailed information about a specific static tab
 | `domain`  | `String`       | The domain (region) code for retrieving static table detail.     |
 | `lang`    | `DataLanguage` | The language for static table data (default: `DataLanguage.id`). |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

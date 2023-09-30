@@ -9,6 +9,8 @@ Metode ini digunakan untuk mengambil daftar kategori berita berdasarkan domain (
 | `domain`  | `String`       | Kode domain (wilayah) untuk mengambil kategori berita.          |
 | `lang`    | `DataLanguage` | Bahasa untuk data kategori berita (default: `DataLanguage.id`). |
 
+## Contoh
+
 Contoh penggunaan dan contoh output:
 
 ```dart

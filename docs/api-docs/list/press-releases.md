@@ -14,6 +14,8 @@ This method is used to retrieve a list of press releases based on the selected d
 | `month`   | `int?`         | The month for filtering press releases (optional - `1..12`).      |
 | `year`    | `int?`         | The year for filtering press releases (optional).                 |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

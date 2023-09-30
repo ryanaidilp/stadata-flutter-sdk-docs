@@ -20,8 +20,8 @@ To retrieve a list of models, follow these steps:
 
 3. Use the `list` method with the desired parameters. For example:
 
-```dart
-var result = await StadataFlutter.instance.list.publications(domain: '7200');
-```
+   ```dart
+   var result = await StadataFlutter.instance.list.publications(domain: '7200');
+   ```
 
 This call will provide you with a `ListResult` containing data of type `List<Publication>` and pagination information for further navigation.

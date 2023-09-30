@@ -14,6 +14,8 @@ This method is used to retrieve a list of news based on the selected domain (reg
 | `month`          | `int?`         | The month for filtering news (optional - `1..12`).       |
 | `year`           | `int?`         | The year for filtering news (optional).                  |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

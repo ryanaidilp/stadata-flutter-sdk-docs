@@ -9,6 +9,8 @@ Metode ini digunakan untuk mendapatkan daftar domain (wilayah) yang tersedia dal
 | `type`         | `DomainType` | Tipe domain yang akan diambil (default: `DomainType.all`).                                      |
 | `provinceCode` | `String?`    | Kode provinsi untuk memfilter domain (diperlukan jika `type` = `DomainType.regencyByProvince`). |
 
+## Contoh
+
 Contoh penggunaan dan hasil keluaran:
 
 ```dart

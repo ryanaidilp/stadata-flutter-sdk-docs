@@ -11,6 +11,8 @@ This method is used to retrieve a list of infographics based on the selected dom
 | `page`    | `int`          | The page number (default: `1`).                                 |
 | `keyword` | `String?`      | A keyword for searching infographics (optional).                |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

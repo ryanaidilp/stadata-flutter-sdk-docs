@@ -4,7 +4,7 @@
 
 Within the `StadataFlutter` SDK, you'll find several enums designed to streamline API requests and facilitate the handling of API responses.
 
-**1. DataLanguage Enum:**
+### `DataLanguage` Enum
 
 - The `DataLanguage` enum is used to specify the language (`lang`) parameter when making API requests. It offers two options:
 
@@ -13,7 +13,7 @@ Within the `StadataFlutter` SDK, you'll find several enums designed to streamlin
   | `DataLanguage.id` | `ind`       | Represents the Indonesian language. | **Default** |
   | `DataLanguage.en` | `eng`       | Represents the English language.    |             |
 
-**2. DomainType Enum:**
+### `DomainType` Enum
 
 - The `DomainType` enum simplifies domain type (`type`) parameters for `Domain` models in API requests. It includes the following options:
 
@@ -24,7 +24,7 @@ Within the `StadataFlutter` SDK, you'll find several enums designed to streamlin
   | `DataLanguage.regency`           | `kab`        | Retrieve all regency domains.                                |             |
   | `DataLanguage.regencyByProvince` | `kabbyprov`  | Retrieve all regency domains within a specified province ID. |             |
 
-**3. DataAvailability Enum:**
+### `DataAvailability` Enum
 
 - The `DataAvailability` enum helps you check the `data-availability` key in API responses, making it easier to determine the availability of data. It includes the following options:
 

@@ -13,6 +13,8 @@ This method is used to retrieve a list of static tables based on the selected do
 | `month`   | `int?`         | The month for filtering static tables (optional - `1..12`).      |
 | `year`    | `int?`         | The year for filtering static tables (optional).                 |
 
+## Example
+
 Example usage and sample output:
 
 ```dart

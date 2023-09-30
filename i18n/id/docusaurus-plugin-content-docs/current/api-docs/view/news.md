@@ -10,6 +10,8 @@ Metode ini digunakan untuk mengambil informasi terperinci tentang berita tertent
 | `domain`  | `String`       | Kode domain (wilayah) untuk mengambil detail berita.   |
 | `lang`    | `DataLanguage` | Bahasa untuk data berita (default: `DataLanguage.id`). |
 
+## Contoh
+
 Contoh penggunaan dan hasil contoh:
 
 ```dart

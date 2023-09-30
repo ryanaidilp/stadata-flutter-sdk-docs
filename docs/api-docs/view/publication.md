@@ -10,6 +10,8 @@ This method is used to retrieve detailed information about a specific publicatio
 | `domain`  | `String`       | The domain (region) code for retrieving publication detail.     |
 | `lang`    | `DataLanguage` | The language for publication data (default: `DataLanguage.id`). |
 
+## Example
+
 Example usage and sample output:
 
 ```dart
