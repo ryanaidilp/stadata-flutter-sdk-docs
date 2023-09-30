@@ -12,9 +12,9 @@ Dengan STADATA Flutter SDK, Anda dapat menggunakan rangkaian data komprehensif y
 
 ## Yang Anda Butuhkan
 
-- [Flutter](https://flutter.dev) versi 3.13.0 atau yang lebih baru:
+- [Flutter](https://flutter.dev) versi 3.10.6 atau yang lebih baru:
   - Disarankan menggunakan [fvm](https://fvm.app) atau [puro](https://puro.dev) untuk manajemen versi
-- [Dart](https://dart.dev) versi 3.1.2 atau yang lebih baru.
+- [Dart](https://dart.dev) versi 3.0.6 atau yang lebih baru.
 - Kunci API dari [WEB API BPS](https://webapi.bps.go.id/documentation/).
 
 ## Fitur Utama
