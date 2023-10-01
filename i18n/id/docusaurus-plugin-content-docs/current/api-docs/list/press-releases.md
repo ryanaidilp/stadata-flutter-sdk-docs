@@ -18,6 +18,8 @@ Metode ini digunakan untuk mendapatkan daftar siaran pers berdasarkan domain (wi
 
 Contoh penggunaan dan hasil keluaran:
 
+![Preview](/gif/press_releases.gif)
+
 ```dart
 final result = await StadataFlutter.instance.list.pressReleases(domain: '7200');
 final pressReleaseList = result.data;

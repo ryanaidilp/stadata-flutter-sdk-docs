@@ -14,6 +14,8 @@ This method is used to retrieve detailed information about a specific press rele
 
 Example usage and sample output:
 
+![Preview](/gif/press_releases.gif)
+
 ```dart
 // Fetch publication detail from BPS API
 final pressRelease = await StadataFlutter.instance.view.pressRelease(id: 1234:, domain: '7200');

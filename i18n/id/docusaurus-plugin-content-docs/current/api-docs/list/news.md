@@ -18,6 +18,8 @@ Metode ini digunakan untuk mengambil daftar berita berdasarkan domain (wilayah) 
 
 Contoh penggunaan dan contoh keluaran:
 
+![Preview](/gif/news.gif)
+
 ```dart
 // Mengambil berita dari API BPS
 final result = await StadataFlutter.instance.list.news(domain: '7200');

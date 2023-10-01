@@ -13,6 +13,8 @@ This method is used to retrieve a list of news categories based on the selected 
 
 Example usage and sample output:
 
+![Preview](/gif/news_categories.gif)
+
 ```dart
 // Fetch news categories data from BPS API
 final result = await StadataFlutter.instance.list.newsCategories(domain: '7200');

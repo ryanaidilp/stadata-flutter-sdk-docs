@@ -14,6 +14,8 @@ Metode ini digunakan untuk mengambil informasi terperinci tentang berita tertent
 
 Contoh penggunaan dan hasil contoh:
 
+![Preview](/gif/news.gif)
+
 ```dart
 // Mengambil detail berita dari API BPS
 final berita = await StadataFlutter.instance.view.news(id: 12, domain: '7200');

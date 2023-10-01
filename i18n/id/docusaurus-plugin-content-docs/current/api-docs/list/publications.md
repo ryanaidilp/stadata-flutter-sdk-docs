@@ -17,6 +17,8 @@ Metode ini digunakan untuk mengambil daftar publikasi berdasarkan domain (wilaya
 
 Contoh penggunaan dan contoh output:
 
+![Preview](/gif/publications.gif)
+
 ```dart
 // Ambil data publikasi dari API BPS
 final publicationResult = await StadataFlutter.instance.list.publications(

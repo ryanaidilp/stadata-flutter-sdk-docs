@@ -13,6 +13,8 @@ Metode ini digunakan untuk mengambil daftar kategori subjek berdasarkan domain y
 
 Contoh penggunaan dan hasil keluaran contoh:
 
+![Preview](/gif/subject_categories.gif)
+
 ```dart
 // Ambil data kategori berita dari API BPS
 final result = await StadataFlutter.instance.list.subjectCategories(domain: '7200');

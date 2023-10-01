@@ -14,6 +14,8 @@ Metode ini digunakan untuk mengambil informasi detail tentang siaran pers terten
 
 Contoh penggunaan dan hasil contoh:
 
+![Preview](/gif/press_releases.gif)
+
 ```dart
 // Ambil detail rilis pers dari API BPS
 final siaranPers = await StadataFlutter.instance.view.siaranPers(id: 1234, domain: '7200');

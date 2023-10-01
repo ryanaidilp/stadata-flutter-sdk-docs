@@ -18,6 +18,8 @@ This method is used to retrieve a list of news based on the selected domain (reg
 
 Example usage and sample output:
 
+![Preview](/gif/news.gif)
+
 ```dart
 // Fetch news from BPS API
 final result = await StadataFlutter.instance.list.news(domain: '7200');

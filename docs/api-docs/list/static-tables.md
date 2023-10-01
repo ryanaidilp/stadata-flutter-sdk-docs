@@ -17,6 +17,8 @@ This method is used to retrieve a list of static tables based on the selected do
 
 Example usage and sample output:
 
+![Preview](/gif/static_tables.gif)
+
 ```dart
 // Fetch static table data from BPS API
 final staticTableResult = await StadataFlutter.instance.list.staticTable(

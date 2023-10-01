@@ -13,6 +13,8 @@ Metode ini digunakan untuk mengambil daftar kategori berita berdasarkan domain (
 
 Contoh penggunaan dan contoh output:
 
+![Preview](/gif/news_categories.gif)
+
 ```dart
 // Mengambil data kategori berita dari API BPS
 final result = await StadataFlutter.instance.list.newsCategories(domain: '7200');

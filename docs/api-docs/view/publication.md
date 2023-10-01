@@ -14,6 +14,8 @@ This method is used to retrieve detailed information about a specific publicatio
 
 Example usage and sample output:
 
+![Preview](/gif/publications.gif)
+
 ```dart
 // Fetch publication detail from BPS API
 final publication = await StadataFlutter.instance.view.publication(

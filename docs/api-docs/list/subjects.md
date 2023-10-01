@@ -15,6 +15,8 @@ This method is used to retrieve a list of subject based on the selected domain (
 
 Example usage and sample output:
 
+![Preview](/gif/subjects.gif)
+
 ```dart
 // Fetch news categories data from BPS API
 final result = await StadataFlutter.instance.list.subjects(domain: '7200');

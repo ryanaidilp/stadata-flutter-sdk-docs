@@ -17,6 +17,8 @@ Metode ini digunakan untuk mengambil daftar tabel statis berdasarkan domain (wil
 
 Contoh penggunaan dan keluaran contoh:
 
+![Preview](/gif/static_tables.gif)
+
 ```dart
 // Mengambil data tabel statis dari API BPS
 final hasilTabelStatis = await StadataFlutter.instance.list.staticTable(

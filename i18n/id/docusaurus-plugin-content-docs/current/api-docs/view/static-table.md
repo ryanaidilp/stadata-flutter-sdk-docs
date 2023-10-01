@@ -14,6 +14,8 @@ Metode ini digunakan untuk mengambil informasi rinci tentang tabel statis terten
 
 Contoh penggunaan dan hasil keluaran contoh:
 
+![Preview](/gif/static_tables.gif)
+
 ```dart
 // Mengambil detail tabel statis dari API BPS
 final staticTable = await StadataFlutter.instance.view.staticTable(

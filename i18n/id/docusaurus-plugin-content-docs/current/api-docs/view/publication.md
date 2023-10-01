@@ -14,6 +14,8 @@ Metode ini digunakan untuk mengambil informasi terperinci tentang suatu publikas
 
 Contoh penggunaan dan keluaran contoh:
 
+![Preview](/gif/publications.gif)
+
 ```dart
 // Mengambil detail publikasi dari API BPS
 final publikasi = await StadataFlutter.instance.view.publication(

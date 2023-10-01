@@ -15,6 +15,8 @@ Metode ini digunakan untuk mendapatkan daftar subjek berdasarkan domain yang dip
 
 Contoh penggunaan dan hasil keluaran:
 
+![Preview](/gif/subjects.gif)
+
 ```dart
 // Mengambil data kategori berita dari API BPS
 final result = await StadataFlutter.instance.list.subjects(domain: '7200');

@@ -17,6 +17,8 @@ This method is used to retrieve a list of publications based on the selected dom
 
 Example usage and sample output:
 
+![Preview](/gif/publications.gif)
+
 ```dart
 // Fetch publication data from BPS API
 final publicationResult = await StadataFlutter.instance.list.publications(

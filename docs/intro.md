@@ -10,6 +10,8 @@ This SDK empowers Flutter developers to effortlessly access a wealth of statisti
 
 With STADATA Flutter SDK, you can harness the comprehensive data sets made available by BPS, covering a wide range of domains such as population, economy, demographics, and more. This SDK simplifies the process of fetching, processing, and presenting statistical data within your Flutter apps, ensuring a smooth and efficient user experience by eliminate the need for manual data downloads from the <https://www.bps.go.id/>.
 
+![Preview](/gif/news.gif) ![Preview](/gif/publications.gif) ![Preview](/gif/press_releases.gif) ![Preview](/gif/infographics.gif) ![Preview](/gif/static_tables.gif) ![Preview](/gif/domains.gif)
+
 ## What you'll need
 
 - [Flutter](https://flutter.dev) version 3.10.6 or above:

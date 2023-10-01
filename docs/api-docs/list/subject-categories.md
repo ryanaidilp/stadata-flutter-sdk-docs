@@ -13,6 +13,8 @@ This method is used to retrieve a list of subject categories based on the select
 
 Example usage and sample output:
 
+![Preview](/gif/subject_categories.gif)
+
 ```dart
 // Fetch news categories data from BPS API
 final result = await StadataFlutter.instance.list.subjectCategories(domain: '7200');

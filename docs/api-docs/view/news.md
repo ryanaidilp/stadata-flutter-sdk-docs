@@ -14,6 +14,8 @@ This method is used to retrieve detailed information about a specific news.
 
 Example usage and sample output:
 
+![Preview](/gif/news.gif)
+
 ```dart
 // Fetch news detail from BPS API
 final news = await StadataFlutter.instance.view.news(id: 12:, domain: '7200');

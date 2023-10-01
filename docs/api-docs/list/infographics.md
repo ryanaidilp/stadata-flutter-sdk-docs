@@ -15,6 +15,8 @@ This method is used to retrieve a list of infographics based on the selected dom
 
 Example usage and sample output:
 
+![Preview](/gif/infographics.gif)
+
 ```dart
 // Fetch infographic data from BPS API
 final infographicResult = await StadataFlutter.instance.list.infographics(

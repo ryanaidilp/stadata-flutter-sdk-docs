@@ -13,6 +13,8 @@ This method is used to retrieve a list of domains (regions) available in the BPS
 
 Example usage and sample output:
 
+![Preview](/gif/domains.gif)
+
 ```dart
 // Fetch domain data from BPS API
 final domainResult = await StadataFlutter.instance.list.domains(

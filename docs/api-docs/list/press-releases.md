@@ -18,6 +18,8 @@ This method is used to retrieve a list of press releases based on the selected d
 
 Example usage and sample output:
 
+![Preview](/gif/press_releases.gif)
+
 ```dart
 final result = await StadataFlutter.instance.list.pressReleases(domain: '7200');
 final pressReleaseList = result.data;

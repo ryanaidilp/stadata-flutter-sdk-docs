@@ -13,6 +13,8 @@ Metode ini digunakan untuk mendapatkan daftar domain (wilayah) yang tersedia dal
 
 Contoh penggunaan dan hasil keluaran:
 
+![Preview](/gif/domains.gif)
+
 ```dart
 // Mengambil data domain dari API BPS
 final domainResult = await StadataFlutter.instance.list.domains(

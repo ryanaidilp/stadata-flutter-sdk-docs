@@ -14,6 +14,8 @@ This method is used to retrieve detailed information about a specific static tab
 
 Example usage and sample output:
 
+![Preview](/gif/static_tables.gif)
+
 ```dart
 // Fetch static table detail from BPS API
 final staticTable = await StadataFlutter.instance.view.staticTable(

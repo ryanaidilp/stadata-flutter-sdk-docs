@@ -15,6 +15,8 @@ Metode ini digunakan untuk mendapatkan daftar infografis berdasarkan domain (wil
 
 Contoh penggunaan dan output contoh:
 
+![Preview](/gif/infographics.gif)
+
 ```dart
 // Mengambil data infografis dari API BPS
 final hasilInfografis = await StadataFlutter.instance.list.infografis(
