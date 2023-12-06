@@ -58,6 +58,10 @@ const config = {
             current: {
               label: "latest",
             },
+            "0.6.3": {
+              label: "0.6.3",
+              path: "0.6.3",
+            },
           },
         },
 
