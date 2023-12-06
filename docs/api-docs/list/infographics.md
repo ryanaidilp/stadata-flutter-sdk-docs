@@ -51,11 +51,11 @@ for (final infographic in infographicList) {
 
 ## Properties (Infographic)
 
-| Property      | Type     | Description                                             |
-| ------------- | -------- | ------------------------------------------------------- |
-| `id`          | `String` | The unique identifier of the infographic.               |
-| `title`       | `String` | The title or name of the infographic.                   |
-| `image`       | `String` | The URL of the image associated with the infographic.   |
-| `description` | `String` | A brief description of the infographic's content.       |
-| `category`    | `String` | The category or topic to which the infographic belongs. |
-| `downloadUrl` | `String` | The URL from which the infographic can be downloaded.   |
+| Property      | Type      | Description                                             |
+| ------------- | --------- | ------------------------------------------------------- |
+| `id`          | `String`  | The unique identifier of the infographic.               |
+| `title`       | `String`  | The title or name of the infographic.                   |
+| `image`       | `String`  | The URL of the image associated with the infographic.   |
+| `description` | `String?` | A brief description of the infographic's content.       |
+| `category`    | `String`  | The category or topic to which the infographic belongs. |
+| `downloadUrl` | `String`  | The URL from which the infographic can be downloaded.   |

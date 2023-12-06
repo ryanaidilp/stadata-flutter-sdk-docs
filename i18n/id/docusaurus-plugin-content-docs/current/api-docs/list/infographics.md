@@ -51,11 +51,11 @@ for (final infografis in daftarInfografis) {
 
 ## Properti (Infographic)
 
-| Properti      | Tipe     | Deskripsi                                           |
-| ------------- | -------- | --------------------------------------------------- |
-| `id`          | `String` | Pengenal unik dari infografis.                      |
-| `title`       | `String` | Judul atau nama dari infografis.                    |
-| `image`       | `String` | URL gambar yang terkait dengan infografis.          |
-| `description` | `String` | Deskripsi singkat dari konten infografis.           |
-| `category`    | `String` | Kategori atau topik yang menjadi subjek infografis. |
-| `downloadUrl` | `String` | URL tempat infografis dapat diunduh.                |
+| Properti      | Tipe      | Deskripsi                                           |
+| ------------- | --------- | --------------------------------------------------- |
+| `id`          | `String`  | Pengenal unik dari infografis.                      |
+| `title`       | `String`  | Judul atau nama dari infografis.                    |
+| `image`       | `String`  | URL gambar yang terkait dengan infografis.          |
+| `description` | `String?` | Deskripsi singkat dari konten infografis.           |
+| `category`    | `String`  | Kategori atau topik yang menjadi subjek infografis. |
+| `downloadUrl` | `String`  | URL tempat infografis dapat diunduh.                |
