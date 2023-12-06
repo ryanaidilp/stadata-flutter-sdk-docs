@@ -15,7 +15,7 @@ Metode ini digunakan untuk mengambil daftar indikator strategis berdasarkan doma
 
 Contoh penggunaan dan keluaran contoh:
 
-![Preview](/gif/static_tables.gif)
+![Preview](/gif/strategic_indicators.gif)
 
 ```dart
 // Fetch indicator strategic data from BPS
