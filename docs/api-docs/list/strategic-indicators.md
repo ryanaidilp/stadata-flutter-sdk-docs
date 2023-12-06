@@ -2,69 +2,69 @@
 
 This method is used to retrieve a list of strategic indicators based on the selected domain (region).
 
-## Parameter
+## Parameters
 
-| Parameter    | Tipe           | Deskripsi                                                           |
-| ------------ | -------------- | ------------------------------------------------------------------- |
-| `domain`     | `String`       | Kode domain (wilayah) untuk mengambil indikator strategis.          |
-| `lang`       | `DataLanguage` | Bahasa untuk data indikator strategis (default: `DataLanguage.id`). |
-| `page`       | `int`          | Nomor halaman (default: `1`).                                       |
-| `variableID` | `int?`         | ID Variable dari indikator strategis (opsional).                    |
+| Parameter    | Type           | Description                                                          |
+| ------------ | -------------- | -------------------------------------------------------------------- |
+| `domain`     | `String`       | Domain code (region) to retrieve strategic indicators.               |
+| `lang`       | `DataLanguage` | Language for strategic indicators data (default: `DataLanguage.id`). |
+| `page`       | `int`          | Page number (default: `1`).                                          |
+| `variableID` | `int?`         | Variable ID of the strategic indicator (optional).                   |
 
-## Contoh
+## Examples
 
-Contoh penggunaan dan keluaran contoh:
+Example usage and output:
 
-![Preview](/gif/static_tables.gif)
+![Preview](/gif/strategic_indicators.gif)
 
 ```dart
-// Mengambil data indikator strategis dari API BPS
+// Fetch strategic indicator data from BPS
 final result = await StadataFlutter.instance.list.strategicIndicators(
-  domain: 'kode_domain_contoh', // Ganti dengan kode domain yang diinginkan
+  domain: 'example_domain_code', // Replace with the desired domain code
   lang: DataLanguage.id,
   page: 1,
-  variableID: 'contoh_kata_kunci', // Ganti dengan ID variabel yang diinginkan atau null
+  variableID: 'example_variable_id', // Replace with the desired variable ID or null
 );
 
 final strategicIndicators = result.data;
 final pagination = result.pagination;
 
-// Mencetak informasi halaman
-print('Halaman Saat Ini: ${pagination.page}');
-print('Total Halaman: ${pagination.pages}');
-print('Jumlah Data dalam Halaman Ini: ${pagination.count}');
-print('Per Halaman: ${pagination.perPage}');
+// Print page information
+print('Current page: ${pagination.page}');
+print('Total Pages: ${pagination.pages}');
+print('Total Data in This Page: ${pagination.count}');
+print('PerPage: ${pagination.perPage}');
 print('Total: ${pagination.total}');
 print('------------------------');
 
-// Mencetak data indikator strategis yang diambil
+// Print retrieved strategic indicator data
 for (final strategicIndicator in strategicIndicators) {
-    print('ID Indikator: ${strategicIndicator.id}');
-    print('Judul Indikator: ${strategicIndicator.title}');
-    print('ID Variable: ${strategicIndicator.variableID}');
-    print('ID Kategori: ${strategicIndicator.categoryID}');
-    print('Nama: ${strategicIndicator.name}');
-    print('Nilai: ${strategicIndicator.value}');
-    print('Satuan: ${strategicIndicator.unit}');
-    print('Sumber Data: ${strategicIndicator.dataSource}');
-    print('Periode: ${strategicIndicator.period}');
-    print('ID Subjek CSA: ${strategicIndicator.csaSubjectID}');
-    print('ID HASH: ${strategicIndicator.hashID}');
+    print('Indicator ID: ${strategicIndicator.id}');
+    print('Title: ${strategicIndicator.title}');
+    print('Variable ID: ${strategicIndicator.variableID}');
+    print('Category ID: ${strategicIndicator.categoryID}');
+    print('Name: ${strategicIndicator.name}');
+    print('Value: ${strategicIndicator.value}');
+    print('Unit: ${strategicIndicator.unit}');
+    print('Data Source: ${strategicIndicator.dataSource}');
+    print('Period: ${strategicIndicator.period}');
+    print('CSA Subject ID: ${strategicIndicator.csaSubjectID}');
+    print('HASH ID: ${strategicIndicator.hashID}');
 }
 ```
 
-## Properti (StrategicIndicator)
+## Properties (StrategicIndicator)
 
-| Properti       | Tipe     | Deskripsi                       |
-| -------------- | -------- | ------------------------------- |
-| `id`           | `int`    | ID unik indikator.              |
-| `title`        | `String` | Judul atau nama indikator.      |
-| `name`         | `String` | Nama atau keterangan indikator. |
-| `variableID`   | `int`    | ID variabel dari indikator.     |
-| `csaSubjectID` | `int?`   | ID Subjek CSA dari indikator.   |
-| `categoryID`   | `int`    | ID kategori dari indikator.     |
-| `hashID`       | `String` | ID hash dari indikator.         |
-| `value`        | `double` | Nilai dari indikator strategis. |
-| `unit`         | `String` | Satuan dari indikator.          |
-| `dataSource`   | `String` | Sumber data dari indikator.     |
-| `period`       | `String` | Periode data dari indikator.    |
+| Property       | Type     | Description                                        |
+| -------------- | -------- | -------------------------------------------------- |
+| `id`           | `int`    | The unique identifier for the Strategic Indicator. |
+| `title`        | `String` | The title of the Strategic Indicator.              |
+| `name`         | `String` | Name or description of the indicator.              |
+| `variableID`   | `int`    | Variable ID of the indicator.                      |
+| `csaSubjectID` | `int?`   | CSA Subject ID of the indicator.                   |
+| `categoryID`   | `int`    | Category ID of the indicator.                      |
+| `hashID`       | `String` | Hash ID of the indicator.                          |
+| `value`        | `double` | Value of the strategic indicator.                  |
+| `unit`         | `String` | Unit of the indicator.                             |
+| `dataSource`   | `String` | Data source of the indicator.                      |
+| `period`       | `String` | Data period of the indicator.                      |

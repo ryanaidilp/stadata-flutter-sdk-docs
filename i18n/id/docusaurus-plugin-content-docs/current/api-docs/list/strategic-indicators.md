@@ -1,43 +1,43 @@
-# Strategic Indicators
+# Indikator Strategis
 
-This method is used to retrieve a list of strategic indicators based on the selected domain (region).
+Metode ini digunakan untuk mengambil daftar indikator strategis berdasarkan domain (wilayah) yang dipilih.
 
-## Parameters
+## Parameter
 
-| Parameter    | Type           | Description                                                          |
-| ------------ | -------------- | -------------------------------------------------------------------- |
-| `domain`     | `String`       | Domain code (region) to retrieve strategic indicators.               |
-| `lang`       | `DataLanguage` | Language for strategic indicators data (default: `DataLanguage.id`). |
-| `page`       | `int`          | Page number (default: `1`).                                          |
-| `variableID` | `int?`         | Variable ID of the strategic indicator (optional).                   |
+| Parameter    | Tipe           | Deskripsi                                                           |
+| ------------ | -------------- | ------------------------------------------------------------------- |
+| `domain`     | `String`       | Kode domain (wilayah) untuk mengambil indikator strategis.          |
+| `lang`       | `DataLanguage` | Bahasa untuk data indikator strategis (default: `DataLanguage.id`). |
+| `page`       | `int`          | Nomor halaman (default: `1`).                                       |
+| `variableID` | `int?`         | ID Variable dari indikator strategis (opsional).                    |
 
-## Examples
+## Contoh
 
-Example usage and output:
+Contoh penggunaan dan keluaran contoh:
 
 ![Preview](/gif/static_tables.gif)
 
 ```dart
-// Fetch strategic indicator data from BPS
+// Fetch indicator strategic data from BPS
 final result = await StadataFlutter.instance.list.strategicIndicators(
-  domain: 'example_domain_code', // Replace with the desired domain code
+  domain: 'kode_domain_contoh', // Ganti dengan kode domain yang diinginkan
   lang: DataLanguage.id,
   page: 1,
-  variableID: 'example_variable_id', // Replace with the desired variable ID or null
+  variableID: 'contoh_kata_kunci', // Ganti dengan ID variabel yang diinginkan atau null
 );
 
 final strategicIndicators = result.data;
 final pagination = result.pagination;
 
-// Print page information
+// Mencetak informasi halaman
 print('Current page: ${pagination.page}');
-print('Total Pages: ${pagination.pages}');
+print('Total Page: ${pagination.pages}');
 print('Total Data in This Page: ${pagination.count}');
 print('PerPage: ${pagination.perPage}');
 print('Total: ${pagination.total}');
 print('------------------------');
 
-// Print retrieved strategic indicator data
+// Mencetak data indikator strategis yang diambil
 for (final strategicIndicator in strategicIndicators) {
     print('Indicator ID: ${strategicIndicator.id}');
     print('Title: ${strategicIndicator.title}');
@@ -51,20 +51,21 @@ for (final strategicIndicator in strategicIndicators) {
     print('CSA Subject ID: ${strategicIndicator.csaSubjectID}');
     print('HASH ID: ${strategicIndicator.hashID}');
 }
+
 ```
 
-## Properties (StrategicIndicator)
+## Properti (StrategicIndicator)
 
-| Property       | Type     | Description                                        |
+| Properti       | Tipe     | Deskripsi                                          |
 | -------------- | -------- | -------------------------------------------------- |
 | `id`           | `int`    | The unique identifier for the Strategic Indicator. |
 | `title`        | `String` | The title of the Strategic Indicator.              |
-| `name`         | `String` | Name or description of the indicator.              |
-| `variableID`   | `int`    | Variable ID of the indicator.                      |
-| `csaSubjectID` | `int?`   | CSA Subject ID of the indicator.                   |
-| `categoryID`   | `int`    | Category ID of the indicator.                      |
-| `hashID`       | `String` | Hash ID of the indicator.                          |
-| `value`        | `double` | Value of the strategic indicator.                  |
-| `unit`         | `String` | Unit of the indicator.                             |
-| `dataSource`   | `String` | Data source of the indicator.                      |
-| `period`       | `String` | Data period of the indicator.                      |
+| `name`         | `String` | Nama atau keterangan indikator.                    |
+| `variableID`   | `int`    | ID variabel dari indikator.                        |
+| `csaSubjectID` | `int?`   | ID Subjek CSA dari indikator.                      |
+| `categoryID`   | `int`    | ID kategori dari indikator.                        |
+| `hashID`       | `String` | ID hash dari indikator.                            |
+| `value`        | `double` | Nilai dari indikator strategis.                    |
+| `unit`         | `String` | Satuan dari indikator.                             |
+| `dataSource`   | `String` | Sumber data dari indikator.                        |
+| `period`       | `String` | Periode data dari indikator.                       |
