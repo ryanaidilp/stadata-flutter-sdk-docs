@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Memulai
 
-STADATA Flutter SDK adalah Flutter SDK yang kuat dan ramah pengguna, dirancang untuk terintegrasi secara mulus dengan API resmi yang ditawarkan oleh Badan Pusat Statistik (BPS) Republik Indonesia. BPS menyediakan WebAPI - <https://webapi.bps.go.id/developer/> yang memungkinkan pengguna mengakses berbagai jenis data secara terprogram, termasuk Publikasi, Rilis Pers, Tabel Statis, Tabel Dinamis, dan banyak lagi.
+STADATA Flutter SDK adalah Flutter SDK yang kuat dan ramah pengguna, dirancang untuk terintegrasi secara mulus dengan API resmi yang ditawarkan oleh Badan Pusat Statistik (BPS) Republik Indonesia. BPS menyediakan WebAPI - [https://webapi.bps.go.id/developer/](https://webapi.bps.go.id/developer/) yang memungkinkan pengguna mengakses berbagai jenis data secara terprogram, termasuk Publikasi, Rilis Pers, Tabel Statis, Tabel Dinamis, dan banyak lagi.
 
 SDK ini memberdayakan pengembang Flutter untuk dengan mudah mengakses sejumlah besar data statistik dan informasi langsung dari database luas BPS, memungkinkan pembuatan aplikasi berbasis data yang memberikan wawasan berharga tentang berbagai aspek lanskap sosial-ekonomi Indonesia.
 
-Dengan STADATA Flutter SDK, Anda dapat menggunakan rangkaian data komprehensif yang disediakan oleh BPS, mencakup berbagai domain seperti populasi, ekonomi, demografi, dan banyak lagi. SDK ini menyederhanakan proses pengambilan, pengolahan, dan penyajian data statistik dalam aplikasi Flutter Anda, memastikan pengalaman pengguna yang lancar dan efisien dengan menghilangkan kebutuhan untuk mengunduh data secara manual dari <https://www.bps.go.id/>.
+Dengan STADATA Flutter SDK, Anda dapat menggunakan rangkaian data komprehensif yang disediakan oleh BPS, mencakup berbagai domain seperti populasi, ekonomi, demografi, dan banyak lagi. SDK ini menyederhanakan proses pengambilan, pengolahan, dan penyajian data statistik dalam aplikasi Flutter Anda, memastikan pengalaman pengguna yang lancar dan efisien dengan menghilangkan kebutuhan untuk mengunduh data secara manual dari [https://www.bps.go.id/](https://www.bps.go.id/).
 
 ![Preview](/gif/news.gif) ![Preview](/gif/publications.gif) ![Preview](/gif/press_releases.gif) ![Preview](/gif/infographics.gif) ![Preview](/gif/static_tables.gif) ![Preview](/gif/domains.gif)
 
