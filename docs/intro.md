@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Getting Started
 
-The STADATA Flutter SDK is a powerful and user-friendly Flutter SDK designed to seamlessly integrate with the official API offered by the Badan Pusat Statistik (BPS) Statistic of the Republic of Indonesia. BPS offers a WebAPI - <https://webapi.bps.go.id/developer/> that allows users to programmatically access various types of data, including Publications, Press Releases, Static Tables, Dynamic Tables, and many more.
+The STADATA Flutter SDK is a powerful and user-friendly Flutter SDK designed to seamlessly integrate with the official API offered by the Badan Pusat Statistik (BPS) Statistic of the Republic of Indonesia. BPS offers a WebAPI - [https://webapi.bps.go.id/developer/](https://webapi.bps.go.id/developer/) that allows users to programmatically access various types of data, including Publications, Press Releases, Static Tables, Dynamic Tables, and many more.
 
 This SDK empowers Flutter developers to effortlessly access a wealth of statistical data and information directly from BPS's extensive database, enabling the creation of data-driven applications that provide valuable insights into various aspects of Indonesia's socio-economic landscape.
 
-With STADATA Flutter SDK, you can harness the comprehensive data sets made available by BPS, covering a wide range of domains such as population, economy, demographics, and more. This SDK simplifies the process of fetching, processing, and presenting statistical data within your Flutter apps, ensuring a smooth and efficient user experience by eliminate the need for manual data downloads from the <https://www.bps.go.id/>.
+With STADATA Flutter SDK, you can harness the comprehensive data sets made available by BPS, covering a wide range of domains such as population, economy, demographics, and more. This SDK simplifies the process of fetching, processing, and presenting statistical data within your Flutter apps, ensuring a smooth and efficient user experience by eliminate the need for manual data downloads from the [https://www.bps.go.id/](https://www.bps.go.id/).
 
 ![Preview](/gif/news.gif) ![Preview](/gif/publications.gif) ![Preview](/gif/press_releases.gif) ![Preview](/gif/infographics.gif) ![Preview](/gif/static_tables.gif) ![Preview](/gif/domains.gif)
 
