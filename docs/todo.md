@@ -24,7 +24,7 @@ Here is the roadmap of STADATA Flutter SDK. Feature that marked with this ✅ em
 - 🔄 SIMDASI
 - 🔄 Foreign Trade (Exim)
 - 🔄 SDGs Data
-- 🔄 Strategic Indicator
+- ✅ Strategic Indicator
 - 🔄 SDDS
 
 ### View API TODO
